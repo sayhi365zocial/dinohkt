@@ -1,0 +1,250 @@
+@media screen and (max-width: 1024px) {
+    .bg1 {
+        width: 100% !important;
+        height: 100% !important;
+        background-size: contain !important;
+    }
+    .bg2 {
+        width: 100% !important;
+        height: 80% !important;
+        top: 24% !important;
+    }
+    .bg2-content {
+        margin-top: -25px;
+    }
+    .bg3 {
+        width: 100% !important;
+        height: 45% !important;
+        top: 80% !important;
+        background-size: contain !important;
+    }
+    .bg4 {
+        width: 100% !important;
+        height: -webkit-fill-available !important;
+        top: 115% !important;
+        background-size: contain !important;
+    }
+    .leaf-sketch-01 {
+        top: 358px !important;
+    }
+    .leaf-sketch-02 {
+        top: 957px !important;
+        left: 841px !important;
+    }
+    .leaf-sketch-03 {
+        top: 1458px !important;
+    }
+    .dino-sketch-01 {
+        top: 491px !important;
+        left: 339px !important;
+        width: 100% !important;
+        height: 463px;
+    }
+    .dino-sketch-02 {
+        top: 638px !important;
+        left: -338.6650390625px;
+        width: 100% !important;
+        height: 683px;
+    }
+    .dino-sketch-03 {
+        display: none !important;
+    }
+    .dino-sketch-04 {
+        display: none !important;
+    }
+    
+    .dino-twin {
+        margin-top: 225px !important;
+    }
+    .es {
+        margin-top: 100px !important;
+        font-size: 48px;
+    }
+    .e-group {
+        margin-top: 0 !important;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+    .e-pic {
+        padding: 0.125rem !important;
+    }
+    .cytk {
+        margin-top: 220px !important;
+        font-size: 36px !important;
+    }
+    .parktour_ticket {
+        margin-left: 100px !important;
+        width: 80% !important;
+    }
+    .minigolf_ticket {
+        margin-top: 25px !important;
+        width: 80% !important;
+    }
+    .Dilophosaurus {
+        right: 80px !important;
+        position: absolute;
+        margin-top: -335px !important;
+    }
+    .mt-group {
+        margin-top: 0px !important;
+    }
+    .box-bt-seeall {
+        margin-top: 10px !important;
+    }
+    .gko {
+        margin-top: 20px !important;
+        font-size: 36px !important;
+    }
+    .text {
+        margin-top: 10px !important;
+        font-size: 20px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .btn-contract {
+        margin-top: 0px !important;
+    }
+    .img-foot {
+        margin-bottom: 20px !important;
+    }
+    .footer {
+        bottom: 0 !important;
+        position: fixed !important;
+    }
+}
+@media screen and (max-width: 600px) {
+    .bg1 {
+        width: 100% !important;
+        height: 100% !important;
+        background-size: contain !important;
+    }
+    .bg2 {
+        width: 100% !important;
+        height: 60% !important;
+        top: 24% !important;
+    }
+    .bg2-content {
+        margin-top: -25px;
+    }
+    .bg3 {
+        width: 100% !important;
+        height: -webkit-fill-availablema !important;
+        top: 75% !important;
+        background-size: contain !important;
+    }
+    .bg4 {
+        width: 100% !important;
+        height: -webkit-fill-available !important;
+        top: 85% !important;
+        background-size: contain !important;
+    }
+    .bg4-content{
+        margin-top: -25px;
+    }
+    .footer {
+        top: auto !important;
+        bottom: 0 !important;
+        /* position: fixed !important; */
+    }
+    .header-gradient {
+        width: 100% !important;
+        height: fit-content !important;
+        background-size: contain !important;
+    }
+    .leaf-sketch-01 {
+        top: 150px !important;
+        left: -19px !important;
+        width: 100% !important;
+        height: fit-content !important;
+    }
+    .leaf-sketch-02 {
+        top: 437px !important;
+        left: 80% !important;
+        width: 20% !important;
+        height: auto !important;
+        object-fit: contain;
+    }
+    .dino-sketch-01 {
+        top: 150px !important;
+        left: 45% !important;
+        width: 80% !important;
+        height: auto !important;
+        object-fit: contain;
+    }
+    .dino-sketch-02 {
+        top: 225px !important;
+        left: -60px !important;
+        width: 80% !important;
+        height: auto !important;
+
+        /* height: fit-content !important; */
+    }
+    .mt-group{
+        margin-top: 0px !important;
+    }
+    .minigolf_ticket {
+        margin-top: 15px !important;
+        width: 80% !important;
+    }
+    .box-bt-seeall {
+        margin-top: 0px !important;
+    }
+    .cytk {
+        margin-top: 64px !important;
+        font-size: 20px !important;
+    }
+    .parktour_ticket {
+        margin-left: 50px !important;
+    }
+    .Dilophosaurus {
+        right: 40px !important;
+        margin-top: -120px !important;
+    }
+    .gko {
+        margin-top: 10px !important;
+        font-size: 20px !important;
+    }
+    .text {
+        margin-top: -10px !important;
+        font-size: 10px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .dino-twin {
+        margin-top: 115px !important;
+    }
+    .dino-sketch-03 {
+        top: 25px !important;
+        left: 65% !important;
+        width: 50% !important;
+        height: auto !important;
+    }
+    .dino-sketch-04 {
+        top: 0px !important;
+        left: -80px !important;
+        width: 50% !important;
+        height: auto !important;
+    }
+    .leaf-sketch-03 {
+        top: -25px !important;
+        left: -24px !important;
+        width: 20% !important;
+        height: auto !important;
+    }
+    .es {
+        margin-top: 80px !important;
+        font-size: 20px !important;
+    }
+    .e-group {
+        margin-top: -10px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .e-pic {
+        padding: 0.3rem !important;
+    }
+    .e-text {
+        margin-top: 10px !important;
+        font-size: 14px !important;
+    }
+}

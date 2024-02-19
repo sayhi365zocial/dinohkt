@@ -1,0 +1,94 @@
+@media screen and (max-width: 1024px) {
+    .bg1 {
+        width: 100% !important;
+        height: 100% !important;
+        background-size: contain !important;
+    }
+    .bg2 {
+        width: 100% !important;
+        /* height: -webkit-fill-available !important; */
+        height: 65% !important;
+        top: 20% !important;
+        /* background-size: contain !important; */
+    }
+    .bg2-content {
+        margin-top: -25px;
+    }
+    .bg3 {
+        width: 100% !important;
+        height: 45% !important;
+        top: 65% !important;
+        background-size: contain !important;
+    }
+    .bg4 {
+        width: 100% !important;
+        height: -webkit-fill-available !important;
+        top: 115% !important;
+        background-size: contain !important;
+    }
+    .e-pic {
+        padding: 0.125rem !important;
+    }
+    .dino-sketch-02 {
+        top: 288px !important;
+        left: -338.6650390625px;
+        width: 100% !important;
+        height: 683px;
+    }
+    .footer {
+        bottom: 0 !important;
+        position: fixed !important;
+    }
+    .bt-sm {
+        width: 30% !important;
+    }
+}
+@media screen and (max-width: 600px) {
+    .bg1 {
+        width: 100% !important;
+        height: 100% !important;
+        background-size: contain !important;
+    }
+    .bg2 {
+        width: 100% !important;
+        /* height: -webkit-fill-available !important; */
+        height: 75% !important;
+        top: 15% !important;
+        /* background-size: contain !important; */
+    }
+    .bg2-content {
+        margin-top: -25px;
+    }
+    .bg3 {
+        width: 100% !important;
+        height: -webkit-fill-availablema !important;
+        top: 65% !important;
+        background-size: contain !important;
+    }
+    .bg4 {
+        width: 100% !important;
+        height: -webkit-fill-available !important;
+        top: 85% !important;
+        background-size: contain !important;
+    }
+    .e-pic {
+        padding: 0.3rem !important;
+    }
+    .e-text {
+        margin-top: 10px !important;
+        font-size: 14px !important;
+    }
+    .dino-sketch-02 {
+        top: 355px !important;
+        left: -220px !important;
+        width: 80% !important;
+        height: auto !important;
+    }
+    .footer {
+        top: auto !important;
+        bottom: 0 !important;
+    }
+    .dino-sketch-03 {
+        display: none !important;
+    }
+}
