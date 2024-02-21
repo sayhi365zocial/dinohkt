@@ -79,7 +79,7 @@
                 width: 100%;
                 height: 100%;
                 position: absolute;
-                background: transparent url('img/banner-findus.png') 0% 0% no-repeat padding-box;
+                background: transparent url('img/banner-findus.jpg') 0% 0% no-repeat padding-box;
                 background-size: contain;
             }
             .d-pic {
@@ -136,6 +136,9 @@
             }
             .content {
                 margin-top: 120px;
+            }
+            .sign-inline {
+                margin-top: 5px;
             }
             @media screen and (max-width: 600px) {
                 .d-pic {
@@ -210,13 +213,106 @@
                         <p class="Skranji font-size-48">FIND US</p>
                     </div>
                 </div>
-                <div class="contract" >
+                <div class="row" style="background-color: #C59F83;">
+                    <div class="col-md-3 col-sm-12">
+                        <div class="row mt-3">
+                            <div class="col-2 text-center">
+                                <button onclick="copytel()" style="border: 0; background-color: transparent;">
+                                    <img class="sign-inline" src="img\sign\icon-telephone.png" alt="">
+                                </button>
+                            </div>
+                            <div class="col-10">
+                                <span class="font-size-28 ml--2" id="tel-text">(+66) 061-1764226</span>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-2 text-center">
+                                <a href="https://lin.ee/RYAdCrZ" target="_blank" rel="noopener noreferrer">
+                                    <img class="sign-inline" src="img\sign\icon-line.png" alt="" style="margin-top: 15px;">
+                                </a>
+                            </div>
+                            <div class="col-10">
+                                <a href="https://lin.ee/RYAdCrZ" target="_blank" rel="noopener noreferrer" class="link">
+                                    <span class="font-size-28 ml--2">(+66) 061-1764226</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-2 text-center">
+                                <a href="https://wa.me/66611764226" target="_blank" rel="noopener noreferrer" class="link">
+                                    <img class="sign-inline" src="img\sign\icon-whatsapp.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-10">
+                                <a href="https://wa.me/66611764226" target="_blank" rel="noopener noreferrer" class="link">
+                                    <span class="font-size-28 ml--2" id="whatsapp-text">dinoparkphuket</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-2 text-center">
+                                <button onclick="copywechat()" style="border: 0; background-color: transparent;">
+                                    <img class="sign-inline" src="img\sign\icon-wechat.png" alt="">
+                                </button>
+                            </div>
+                            <div class="col-10">
+                                <span class="font-size-28 ml--2" id="wechat-text">+66611764226</span>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-2 text-center">
+                                <button onclick="copymail()" style="border: 0; background-color: transparent;">
+                                    <img class="sign-inline" src="img\sign\icon-email.png" alt="">
+                                </button>
+                            </div>
+                            <div class="col-10">
+                                <span class="font-size-28 ml--2" id="mail-text">info@dinopark.com</span>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-md-12 col-sm-12 text-center">
+                                <a href="https://www.instagram.com/dinopark_phuket/" target="_blank" rel="noopener noreferrer">
+                                    <img class="sign-inline p-2" src="img\sign\icon-instagram.png" alt="">
+                                </a>
+                                <a href="https://www.facebook.com/dinoparkphuketminigolf" target="_blank" rel="noopener noreferrer">
+                                    <img class="sign-inline p-2" src="img\sign\icon-facebook.png" alt="">
+                                </a>
+                                <a href="https://www.tiktok.com/@dinoparkphuket?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer">
+                                    <img class="sign-inline p-2" src="img\sign\icon-tiktok.png">
+                                </a>
+                                <a href="https://www.youtube.com/@dinoparkphuket" target="_blank" rel="noopener noreferrer">
+                                    <img class="sign-inline p-2" src="img\sign\icon-youtube.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 mb-3 text-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="80%" viewBox="0 0 400 90">
+                                <a xlink:href="https://maps.app.goo.gl/j19Sg5hmfLW66bN3A">
+                                    <g id="button-seemore" transform="translate(-1111 -778.615)">
+                                    <rect id="Rectangle_44" data-name="Rectangle 44" width="400" height="90" rx="20" transform="translate(1111 778.615)" fill="#7f7f4e"/>
+                                    <text id="See_all_tickets" data-name="See all tickets" transform="translate(1311 835.615)" fill="#fdf3ec" font-size="32" font-family="Lexend" font-weight="600"><tspan x="-101" y="0">Get Direction</tspan></text>
+                                    </g>
+                                </a>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-sm-12 m-0 p-0">
+                        <div class="row">
+                            <div class="col-12">
+                                <a href="https://maps.app.goo.gl/j19Sg5hmfLW66bN3A" target="_blank" rel="noopener noreferrer">
+                                    <img src="img\google map.png" alt="" width="100%">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="contract" >
                     <div class="row">
                         <div class="col-md-4 col-sm-2">
                             <div class="row">
                                 <div class="col-2 text-center">
                                     <button onclick="copytel()" style="border: 0; background-color: transparent;">
-                                        <img class="sign-img" src="img\sign\icon-telephone.png" alt="">
+                                        <img class="sign-inline" src="img\sign\icon-telephone.png" alt="">
                                     </button>
                                 </div>
                                 <div class="col-10">
@@ -228,7 +324,7 @@
                             <div class="row">
                                 <div class="col-2 text-center">
                                     <a href="https://lin.ee/RYAdCrZ" target="_blank" rel="noopener noreferrer">
-                                        <img class="sign-img" src="img\sign\icon-line.png" alt="">
+                                        <img class="sign-inline" src="img\sign\icon-line.png" alt="">
                                     </a>
                                 </div>
                                 <div class="col-10">
@@ -242,7 +338,7 @@
                             <div class="row">
                                 <div class="col-2 text-center">
                                     <a href="https://www.instagram.com/dinopark_phuket/" target="_blank" rel="noopener noreferrer">
-                                        <img class="sign-img" src="img\sign\icon-instagram.png" alt="">
+                                        <img class="sign-inline" src="img\sign\icon-instagram.png" alt="">
                                     </a>
                                 </div>
                                 <div class="col-10">
@@ -258,7 +354,7 @@
                             <div class="row">
                                 <div class="col-2 text-center">
                                     <button onclick="copymail()" style="border: 0; background-color: transparent;">
-                                        <img class="sign-img" src="img\sign\icon-email.png" alt="">
+                                        <img class="sign-inline" src="img\sign\icon-email.png" alt="">
                                     </button>
                                 </div>
                                 <div class="col-10">
@@ -270,7 +366,7 @@
                             <div class="row">
                                 <div class="col-2 text-center">
                                     <button onclick="copywechat()" style="border: 0; background-color: transparent;">
-                                        <img class="sign-img" src="img\sign\icon-wechat.png" alt="">
+                                        <img class="sign-inline" src="img\sign\icon-wechat.png" alt="">
                                     </button>
                                 </div>
                                 <div class="col-10">
@@ -282,7 +378,7 @@
                             <div class="row">
                                 <div class="col-2 text-center">
                                     <button onclick="copywhatsapp()" style="border: 0; background-color: transparent;">
-                                        <img class="sign-img" src="img\sign\icon-whatsapp.png" alt="">
+                                        <img class="sign-inline" src="img\sign\icon-whatsapp.png" alt="">
                                     </button>
                                 </div>
                                 <div class="col-10">
@@ -324,7 +420,7 @@
                             <div class="row">
                                 <div class="col-2 text-center">
                                     <a href="https://www.youtube.com/@dinoparkphuket" target="_blank" rel="noopener noreferrer">
-                                        <img class="sign-img" src="img\sign\icon-youtube.png" alt="">
+                                        <img class="sign-inline" src="img\sign\icon-youtube.png" alt="">
                                     </a>
                                 </div>
                                 <div class="col-10">
@@ -344,7 +440,7 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="content">
                     <div class="row">
                         <div class="col-md-6 col-sm-12">
@@ -460,15 +556,6 @@
     }
     function copywechat () {
         var textToCopy = $('#wechat-text').text();
-        var tempTextarea = $('<textarea>');
-        $('body').append(tempTextarea);
-        tempTextarea.val(textToCopy).select();
-        document.execCommand('copy');
-        tempTextarea.remove();
-        alert("Text copied")
-    }
-    function copywhatsapp () {
-        var textToCopy = $('#whatsapp-text').text();
         var tempTextarea = $('<textarea>');
         $('body').append(tempTextarea);
         tempTextarea.val(textToCopy).select();
