@@ -14,6 +14,8 @@
     $successMessage = '';
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $name = $_POST['name'];
+        $fam_name = $POST['famname'];
+        $full_name = $name.' '.$fam_name;
         $email = $_POST['email'];
         $topic = $_POST['topic'];
         $msg = $_POST['msg'];
@@ -28,9 +30,9 @@
         $mail->SMTPAuth = true;
         $mail->Username = "contact@dinopark.com";
         $mail->Password = "poyzhvbuspouibtx";
-        $mail->addReplyTo($email,$name);
-        $mail->setFrom($email, $name);
-        $mail->addAddress('info@dinopark.com', $name);
+        $mail->addReplyTo($email,$full_name);
+        $mail->setFrom($email, $full_name);
+        $mail->addAddress('info@dinopark.com', $full_name);
         $mail->Subject = $topic;
         $mail->msgHTML("$msg");
         if (!$mail->send()) {
@@ -466,10 +468,16 @@
                             <form action="contract.php" method="post" id="contact-form">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <span class="font-size-36 Lexend-extra">Full name</span>
+                                        <span class="font-size-36 Lexend-extra">First name</span>
                                     </div>
                                     <div class="col-md-12 mt-2">
-                                        <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+                                        <input type="text" name="name" id="name" class="form-control" placeholder="Enter your First name" required>
+                                    </div>
+                                    <div class="col-md-12 mt-4">
+                                        <span class="font-size-36 Lexend-extra">Family name</span>
+                                    </div>
+                                    <div class="col-md-12 mt-2">
+                                        <input type="text" name="famname" id="famname" class="form-control" placeholder="Enter your Family name" required>
                                     </div>
                                     <div class="col-md-12 mt-4">
                                         <span class="font-size-36 Lexend-extra">Email address</span>
@@ -498,7 +506,7 @@
                                         <textarea class="form-control" name="msg" id="msg" cols="30" rows="5" placeholder="Type your message" required></textarea>
                                     </div>
                                     <div class="col-md-8 col-sm-12 mt-5 mb-5">
-                                        <button type="submit" id="btn-submit" style="border: 0;" data-callback="onContractSuccess">
+                                        <button type="submit" id="btn-submit" style="border: 0; background: transparent;" data-callback="onContractSuccess">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="90" viewBox="0 0 536 90">
                                                 <g id="button-send" transform="translate(-1043 -778.615)">
                                                 <rect id="Rectangle_44" data-name="Rectangle 44" width="536" height="90" rx="20" transform="translate(1043 778.615)" fill="#7f7f4e"/>
