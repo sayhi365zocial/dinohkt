@@ -79,13 +79,12 @@
                 top: 0px;
                 left: 0px;
                 width: 100%;
-                height: 100%;
+                height: 1200px;
                 position: absolute;
-                background: transparent url('img/banner-findus.jpg') 0% 0% no-repeat padding-box;
-                background-size: contain;
+                background: transparent url('img/banner-findus.png') 0% 0% no-repeat padding-box;
             }
             .d-pic {
-                margin-top: 600px;
+                margin-top: 1100px;
                 margin-left: 140px;
                 margin-right: 140px;
             }
@@ -142,9 +141,21 @@
             .sign-inline {
                 margin-top: 5px;
             }
+            @media screen and (max-width: 1024px) { 
+                .bg1 {
+                    width: 100%;
+                    height: 100%;
+                    background-size: contain;
+                }
+                .d-pic {
+                    margin-top: 500px !important;
+                    margin-left: 50px !important;
+                    margin-right: 50px !important;
+                }
+            }
             @media screen and (max-width: 600px) {
                 .d-pic {
-                    margin-top: 100px !important;
+                    margin-top: 150px !important;
                     margin-left: 0px !important;
                     margin-right: 0px !important;
                 }
