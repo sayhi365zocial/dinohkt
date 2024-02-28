@@ -240,24 +240,24 @@
                         </div>
                         <div class="row mt-2">
                             <div class="col-2 text-center">
-                                <a href="https://lin.ee/RYAdCrZ" target="_blank" rel="noopener noreferrer">
+                                <a href="https://line.me/R/ti/p/@287wldxc" target="_blank" rel="noopener noreferrer">
                                     <img class="sign-inline" src="img\sign\icon-line.png" alt="" style="margin-top: 15px;">
                                 </a>
                             </div>
                             <div class="col-10">
-                                <a href="https://lin.ee/RYAdCrZ" target="_blank" rel="noopener noreferrer" class="link">
-                                    <span class="font-size-28 ml--2">(+66) 061-1764226</span>
+                                <a href="https://line.me/R/ti/p/@287wldxc" target="_blank" rel="noopener noreferrer" class="link">
+                                    <span class="font-size-28 ml--2">@dinoparkphuket</span>
                                 </a>
                             </div>
                         </div>
                         <div class="row mt-2">
                             <div class="col-2 text-center">
-                                <a href="https://wa.me/66611764226" target="_blank" rel="noopener noreferrer" class="link">
+                                <a href="https://api.whatsapp.com/message/SSEJ5GSYNV4KJ1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer" class="link">
                                     <img class="sign-inline" src="img\sign\icon-whatsapp.png" alt="">
                                 </a>
                             </div>
                             <div class="col-10">
-                                <a href="https://wa.me/66611764226" target="_blank" rel="noopener noreferrer" class="link">
+                                <a href="https://api.whatsapp.com/message/SSEJ5GSYNV4KJ1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer" class="link">
                                     <span class="font-size-28 ml--2" id="whatsapp-text">dinoparkphuket</span>
                                 </a>
                             </div>
@@ -319,141 +319,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="contract" >
-                    <div class="row">
-                        <div class="col-md-4 col-sm-2">
-                            <div class="row">
-                                <div class="col-2 text-center">
-                                    <button onclick="copytel()" style="border: 0; background-color: transparent;">
-                                        <img class="sign-inline" src="img\sign\icon-telephone.png" alt="">
-                                    </button>
-                                </div>
-                                <div class="col-10">
-                                    <span class="font-size-28 ml--2" id="tel-text">(+66) 061-1764226</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-2">
-                            <div class="row">
-                                <div class="col-2 text-center">
-                                    <a href="https://lin.ee/RYAdCrZ" target="_blank" rel="noopener noreferrer">
-                                        <img class="sign-inline" src="img\sign\icon-line.png" alt="">
-                                    </a>
-                                </div>
-                                <div class="col-10">
-                                    <a href="https://lin.ee/RYAdCrZ" target="_blank" rel="noopener noreferrer" class="link">
-                                        <span class="font-size-28 ml--2">(+66) 061-1764226</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-2">
-                            <div class="row">
-                                <div class="col-2 text-center">
-                                    <a href="https://www.instagram.com/dinopark_phuket/" target="_blank" rel="noopener noreferrer">
-                                        <img class="sign-inline" src="img\sign\icon-instagram.png" alt="">
-                                    </a>
-                                </div>
-                                <div class="col-10">
-                                    <a href="https://www.instagram.com/dinopark_phuket/" target="_blank" rel="noopener noreferrer" class="link">
-                                        <span class="font-size-28 ml--2">dinopark_phuket</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mt-4">
-                        <div class="col-md-4 col-sm-2">
-                            <div class="row">
-                                <div class="col-2 text-center">
-                                    <button onclick="copymail()" style="border: 0; background-color: transparent;">
-                                        <img class="sign-inline" src="img\sign\icon-email.png" alt="">
-                                    </button>
-                                </div>
-                                <div class="col-10">
-                                    <span class="font-size-28 ml--2" id="mail-text">info@dinopark.com</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-2">
-                            <div class="row">
-                                <div class="col-2 text-center">
-                                    <button onclick="copywechat()" style="border: 0; background-color: transparent;">
-                                        <img class="sign-inline" src="img\sign\icon-wechat.png" alt="">
-                                    </button>
-                                </div>
-                                <div class="col-10">
-                                    <span class="font-size-28 ml--2" id="wechat-text">+66611764226</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-2">
-                            <div class="row">
-                                <div class="col-2 text-center">
-                                    <button onclick="copywhatsapp()" style="border: 0; background-color: transparent;">
-                                        <img class="sign-inline" src="img\sign\icon-whatsapp.png" alt="">
-                                    </button>
-                                </div>
-                                <div class="col-10">
-                                    <span class="font-size-28 ml--2" id="whatsapp-text">dinoparkphuket</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mt-4">
-                        <div class="col-md-4 col-sm-2">
-                            <div class="row">
-                                <div class="col-2 text-center">
-                                    <a href="https://www.facebook.com/dinoparkphuketminigolf" target="_blank" rel="noopener noreferrer">
-                                        <img src="img\sign\icon-facebook.png" alt="">
-                                    </a>
-                                </div>
-                                <div class="col-10">
-                                    <a href="https://www.facebook.com/dinoparkphuketminigolf" target="_blank" rel="noopener noreferrer" class="link">
-                                        <span class="font-size-28 ml--2">Dino Park Phuket</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-2">
-                            <div class="row">
-                                <div class="col-2 text-center">
-                                    <a href="https://www.tiktok.com/@dinoparkphuket?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer">
-                                        <img src="img\sign\icon-tiktok.png">
-                                    </a>
-                                </div>
-                                <div class="col-10">
-                                    <a href="https://www.tiktok.com/@dinoparkphuket?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer" class="link">
-                                        <span class="font-size-28 ml--2">dinoparkphuket</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-2">
-                            <div class="row">
-                                <div class="col-2 text-center">
-                                    <a href="https://www.youtube.com/@dinoparkphuket" target="_blank" rel="noopener noreferrer">
-                                        <img class="sign-inline" src="img\sign\icon-youtube.png" alt="">
-                                    </a>
-                                </div>
-                                <div class="col-10">
-                                    <a href="https://www.youtube.com/@dinoparkphuket" target="_blank" rel="noopener noreferrer" class="link">
-                                        <span class="font-size-28 ml--2">DinoParkPhuket</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="content">
-                    <div class="row">
-                        <div class="col-12">
-                            <a href="https://maps.app.goo.gl/j19Sg5hmfLW66bN3A" target="_blank" rel="noopener noreferrer">
-                                <img src="img\google map.png" alt="" width="100%">
-                            </a>
-                        </div>
-                    </div>
-                </div> -->
                 <div class="content">
                     <div class="row">
                         <div class="col-md-6 col-sm-12">
