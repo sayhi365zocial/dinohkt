@@ -250,18 +250,18 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="row mt-2">
+                        <!-- <div class="row mt-2">
                             <div class="col-2 text-center">
-                                <a href="https://api.whatsapp.com/message/SSEJ5GSYNV4KJ1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer" class="link">
+                                <a href="https://wa.me/message/SSEJ5GSYNV4KJ1" target="_blank" rel="noopener noreferrer" class="link">
                                     <img class="sign-inline" src="img\sign\icon-whatsapp.png" alt="">
                                 </a>
                             </div>
                             <div class="col-10">
-                                <a href="https://api.whatsapp.com/message/SSEJ5GSYNV4KJ1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer" class="link">
+                                <a href="https://wa.me/message/SSEJ5GSYNV4KJ1" target="_blank" rel="noopener noreferrer" class="link">
                                     <span class="font-size-28 ml--2" id="whatsapp-text">dinoparkphuket</span>
                                 </a>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="row mt-2">
                             <div class="col-2 text-center">
                                 <button onclick="copywechat()" style="border: 0; background-color: transparent;">
@@ -284,6 +284,9 @@
                         </div>
                         <div class="row mt-2">
                             <div class="col-md-12 col-sm-12 text-center">
+                                <a href="https://wa.me/message/SSEJ5GSYNV4KJ1" target="_blank" rel="noopener noreferrer" class="link">
+                                    <img class="sign-inline p-2" src="img\sign\icon-whatsapp.png" alt="">
+                                </a>
                                 <a href="https://www.instagram.com/dinopark_phuket/" target="_blank" rel="noopener noreferrer">
                                     <img class="sign-inline p-2" src="img\sign\icon-instagram.png" alt="">
                                 </a>
