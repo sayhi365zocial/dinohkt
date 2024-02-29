@@ -15,7 +15,7 @@
     .bg3 {
         width: 100% !important;
         height: 45% !important;
-        top: 85% !important;
+        top: 100% !important;
         background-size: contain !important;
     }
     .bg4 {
@@ -129,7 +129,7 @@
     .bg3 {
         width: 100% !important;
         height: -webkit-fill-availablema !important;
-        top: 75% !important;
+        top: 100% !important;
         background-size: contain !important;
     }
     .bg4 {
