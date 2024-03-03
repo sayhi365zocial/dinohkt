@@ -150,6 +150,18 @@ select {
     visibility: visible;
     opacity: 1;
   }
+@media screen and (max-width: 1400px) { 
+    .bg1 {
+        width: 100% !important;
+        height: 100% !important;
+        background-size: contain !important;
+    }
+    .d-pic {
+        margin-left: 50px !important;
+        margin-right: 50px !important;
+    }
+}
+
 @media screen and (max-width: 1024px) { 
     .highlight {
         top: -35px !important;
@@ -180,13 +192,13 @@ select {
         max-width: 100%;
     }
     .font-size-28 {
-        font-size: 24px !important;
+        font-size: 18px !important;
     }
     .font-size-32 {
-        font-size: 24px !important;
+        font-size: 22px !important;
     }
     .font-size-36 {
-        font-size: 28px !important;
+        font-size: 26px !important;
     }
     .font-size-48 {
         font-size: 36px !important;

@@ -33,15 +33,10 @@
                 background-repeat: repeat-y;
             }
             .bg1 {
-                top: 0px;
-                left: 0px;
                 width: 100%;
                 height: 100%;
-                position: absolute;
-                background: transparent url('../img/ed/banner-bar.jpg') 0% 0% no-repeat padding-box;
             }
-            .d-pic {
-                margin-top: 600px;
+            .d-content {
                 margin-left: 138px;
                 margin-right: 138px;
             }
@@ -92,10 +87,9 @@
                 margin-top: -35px;
             }
             @media screen and (max-width: 600px) {
-                .d-pic {
-                    margin-top: 100px !important;
-                    margin-left: 0px !important;
-                    margin-right: 0px !important;
+                .d-content {
+                    margin-left: 25px !important;
+                    margin-right: 25px !important;
                 }
                 .p--5 {
                     margin-left: -45px;
@@ -110,6 +104,9 @@
                 
                 .font-size-36 {
                     font-size: 28px !important;
+                }
+                .font-size-24 {
+                    font-size: 14px !important;
                 }
             }
             @media screen and (max-width: 400px) {
@@ -131,17 +128,17 @@
         </style>
     </head>
 <body>
+    <div class="row">
+        <div class="col-12 bg1">
+            <img src="../img/banner-eatanddrinks.png" alt="" width="100%">
+        </div>
+    </div>
     <header id="page-topbar">
         <div class="header-gradient"></div>
         <div class="top-bar"></div>
     </header>
-    <div class="page-content">
-        
+    <div class="">
         <div class="container-fluid" >
-           
-            <div class="row">
-                <div class="col-12 bg1"></div>
-            </div>
             <div class="row">
                 <div class="col-12">
                     <img class="leaf-sketch-01" src="../img/leaf-sketch-01.png" alt="">
@@ -158,7 +155,7 @@
                 </div>
             </div>
             
-            <div class="d-pic">
+            <div class="d-content">
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
                         <p class="Skranji head-eat">EAT & DRINKS</p>
