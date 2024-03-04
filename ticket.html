@@ -31,16 +31,10 @@
                 background-repeat: repeat-y;
             }
             .bg1 {
-                top: 0px;
-                left: 0px;
                 width: 100%;
-                height: 1046px;
-                position: absolute;
-                background: transparent url('img/banner-home.png') 0% 0% no-repeat padding-box;
-                /* background-size: contain; */
+                height: 100%;
             }
-            .d-pic {
-                margin-top: 950px;
+            .d-content {
                 margin-left: 140px;
                 margin-right: 140px;
             }
@@ -58,13 +52,6 @@
                 height: 463px;
                 position: absolute;
             }
-            .dino-sketch-03 {
-                top: 1206px;
-                left: 1196px;
-                width: 1169px;
-                height: 683px;
-                position: absolute;
-            }
             .stain1 {
                 top: 234px;
                 left: 1083px;
@@ -72,20 +59,6 @@
                 height: 415px;
                 position: absolute;
             }
-            .stain2 {
-                top: 1403px;
-                left: -1240.658447265625px;
-                width: 1381px;
-                height: 415px;
-                position: absolute;
-            }
-            /* .stain3 {
-                top: 2746px;
-                left: 1196px;
-                width: 1381px;
-                height: 415px;
-                position: absolute;
-            } */
             .arrow-select {
                 position: absolute;
                 right: 35px;
@@ -100,11 +73,11 @@
                     height: 100% !important;
                     background-size: contain !important;
                 }
-                .d-pic {
-                    margin-top: 500px !important;
+                .d-content {
                     margin-left: 0px !important;
                     margin-right: 0px !important;
-                }.font-size-48 {
+                }
+                /* .font-size-48 {
                     font-size: 48px !important;
                 }
                 .font-size-36 {
@@ -112,11 +85,10 @@
                 }
                 .font-size-28 {
                     font-size: 28px !important;
-                }
+                } */
             }
             @media screen and (max-width: 600px) {
-                .d-pic {
-                    margin-top: 150px !important;
+                .d-content {
                     margin-left: 0px !important;
                     margin-right: 0px !important;
                 }
@@ -131,13 +103,6 @@
                     top: 75px;
                     /* left: 20%; */
                 }
-                .dino-sketch-03 {
-                    top: 952px;
-                    left: 30%;
-                }
-                .stain2 {
-                    top: 903px;
-                }
                 .content {
                     margin-top: 20px;
                 }
@@ -145,6 +110,11 @@
         </style>
     </head>
 <body>
+    <div class="row">
+        <div class="col-12 bg1">
+            <img src="img/banner-home.png" alt="" width="100%">
+        </div>
+    </div>
     <header id="page-topbar">
         <div class="header-gradient"></div>
         <div class="top-bar"></div>
@@ -166,25 +136,7 @@
                     <img class="dino-sketch-02" src="img/dino-sketch-01.png" alt="">
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12">
-                    <img class="dino-sketch-03" src="img/dino-sketch-02.png" alt="">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <img class="stain2" src="img/stain1.png" alt="">
-                </div>
-            </div>
-            <!-- <div class="row">
-                <div class="col-12">
-                    <img class="stain3" src="img/stain1.png" alt="">
-                </div>
-            </div> -->
-            <div class="row">
-                <div class="col-12 bg1"></div>
-            </div>
-            <div class="d-pic">
+            <div class="d-content">
                 <div class="row">
                     <div class="col-12 text-center">
                         <p class="Skranji font-size-48">TICKETS</p>

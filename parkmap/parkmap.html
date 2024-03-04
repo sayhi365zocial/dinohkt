@@ -25,7 +25,7 @@
         <link href="../css/custom.css" rel="stylesheet">
         <link href="../css/top-bar.css" rel="stylesheet">
         <link href="../css/slide.css" rel="stylesheet">
-        <!-- <link href="css/home.css" rel="stylesheet"> -->
+        
         <link href="../css/app.css" rel="stylesheet">
         <style>
             body {
@@ -33,15 +33,10 @@
                 background-repeat: repeat-y;
             }
             .bg1 {
-                top: 0px;
-                left: 0px;
                 width: 100%;
-                height: 1200px;
-                position: absolute;
-                background: transparent url('../img/banner-parkmap.png') 0% 0% no-repeat padding-box;
+                height: 100%;
             }
-            .d-pic {
-                margin-top: 1100px;
+            .d-content {
                 margin-left: 138px;
                 margin-right: 138px;
             }
@@ -86,7 +81,7 @@
             .gap-map {
                 margin-top: -100px;
             }
-            @media screen and (max-width: 1024px) {
+            @media screen and (max-width: 1400px) {
                 .bg1 {
                     background-size: contain;
                 }
@@ -96,13 +91,9 @@
                 .gap-map {
                     margin-top: 0px;
                 }
-                .d-pic {
-                    margin-top: 500px !important;
-                }
             }
             @media screen and (max-width: 600px) {
-                .d-pic {
-                    margin-top: 150px !important;
+                .d-content {
                     margin-left: 0px !important;
                     margin-right: 0px !important;
                 }
@@ -119,7 +110,7 @@
                     position: static;
                 }
                 .head-eat {
-                    font-size: 42px;
+                    font-size: 36px;
                 }
                 .gap-map {
                     margin-top: -30px !important;
@@ -132,17 +123,17 @@
         </style>
     </head>
 <body>
+    <div class="row">
+        <div class="col-12 bg1">
+            <img src="../img/banner-parkmap.png" alt="" width="100%">
+        </div>
+    </div>
     <header id="page-topbar">
         <div class="header-gradient"></div>
         <div class="top-bar"></div>
     </header>
     <div class="page-content">
-        
         <div class="container-fluid" >
-           
-            <div class="row">
-                <div class="col-12 bg1"></div>
-            </div>
             <div class="row">
                 <div class="col-12">
                     <img class="leaf-sketch-01" src="../img/leaf-sketch-01.png" alt="">
@@ -158,7 +149,7 @@
                     <img class="dino-sketch-02" src="../img/dino-sketch-02.png" alt="">
                 </div>
             </div>
-            <div class="d-pic">
+            <div class="d-content">
                 <div class="row">
                     <div class="col-md-12 col-sm-12 text-center">
                         <p class="Skranji head-eat">PARK MAP</p>

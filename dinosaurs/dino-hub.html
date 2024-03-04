@@ -31,15 +31,10 @@
                 background-repeat: repeat-y;
             }
             .bg1 {
-                top: 0px;
-                left: 0px;
                 width: 100%;
-                height: 1200px;
-                position: absolute;
-                background: transparent url('../img/banner-dino.png') 0% 0% no-repeat padding-box;
+                height: 100%;
             }
-            .d-pic {
-                margin-top: 1100px;
+            .d-content {
                 margin-left: 250px;
                 margin-right: 250px;
             }
@@ -80,27 +75,20 @@
                 height: 415px;
                 position: absolute;
             }
-            @media screen and (max-width: 1024px){
+            @media screen and (max-width: 1400px){
                 .col-md-6 {
                     -webkit-box-flex: 0;
                     -ms-flex: 0 0 50%;
                     flex: 0 0 50%;
                     max-width: 50%;
                 }
-                .bg1 {
-                    background-size: contain;
-                    width: 100%;
-                    height: 100% !important;
-                }
-                .d-pic {
-                    margin-top: 500px !important;
+                .d-content {
                     margin-left: 50px !important;
                     margin-right: 50px !important;
                 }
             }
             @media screen and (max-width: 600px) {
-                .d-pic {
-                    margin-top: 150px !important;
+                .d-content {
                     margin-left: 0px !important;
                     margin-right: 0px !important;
                 }
@@ -127,6 +115,16 @@
         </style>
     </head>
 <body>
+    <div class="row">
+        <div class="col-12 bg1">
+            <img src="../img/banner-dino.png" alt="" width="100%">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 bg1">
+            <img src="../img/dino/Carnotaurus/banner-Carnotaurus.png" alt="" width="100%">
+        </div>
+    </div>
     <header id="page-topbar">
         <div class="header-gradient"></div>
         <div class="top-bar"></div>
@@ -160,10 +158,8 @@
                     <img class="leaf-sketch-01" src="../img/leaf-sketch-01.png" alt="">
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12 bg1"></div>
-            </div>
-            <div class="d-pic">
+            
+            <div class="d-content">
                 <div class="row">
                     <div class="col-md-12 col-sm-12 text-center">
                         <p class="Skranji font-size-48">OUR DINOSAURS IN THE PARK</p>

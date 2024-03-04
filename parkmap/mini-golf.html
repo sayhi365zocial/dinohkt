@@ -25,7 +25,7 @@
         <link href="../css/custom.css" rel="stylesheet">
         <link href="../css/top-bar.css" rel="stylesheet">
         <link href="../css/slide.css" rel="stylesheet">
-        <!-- <link href="css/home.css" rel="stylesheet"> -->
+        
         <link href="../css/app.css" rel="stylesheet">
         <style>
             body {
@@ -33,17 +33,10 @@
                 background-repeat: repeat-y;
             }
             .bg1 {
-                top: 0px;
-                left: 0px;
                 width: 100%;
-                /* height: 100%; */
-                height: 1046px;
-                position: absolute;
-                background: transparent url('../img/banner-home.png') 0% 0% no-repeat padding-box;
-                background-size: contain;
+                height: 100%;
             }
-            .d-pic {
-                margin-top: 1000px;
+            .d-content {
                 margin-left: 138px;
                 margin-right: 138px;
             }
@@ -85,12 +78,11 @@
             .bt-duo {
                 margin: 25px 0px;
             }
-            img {
+            .img-radius {
                 border-radius: 20px;
             }
             @media screen and (max-width: 1024px) {
-                .d-pic {
-                    margin-top: 440px !important;
+                .d-content {
                     margin-left: 50px !important;
                     margin-right: 50px !important;
                 }
@@ -102,8 +94,7 @@
                 }
             }
             @media screen and (max-width: 600px) {
-                .d-pic {
-                    margin-top: 120px !important;
+                .d-content {
                     margin-left: 0px !important;
                     margin-right: 0px !important;
                 }
@@ -130,17 +121,17 @@
         </style>
     </head>
 <body>
+    <div class="row">
+        <div class="col-12 bg1">
+            <img src="../img/banner-home.png" alt="" width="100%">
+        </div>
+    </div>
     <header id="page-topbar">
         <div class="header-gradient"></div>
         <div class="top-bar"></div>
     </header>
     <div class="page-content">
-        
         <div class="container-fluid" >
-           
-            <div class="row">
-                <div class="col-12 bg1"></div>
-            </div>
             <div class="row">
                 <div class="col-12">
                     <img class="leaf-sketch-01" src="../img/leaf-sketch-01.png" alt="">
@@ -157,7 +148,7 @@
                 </div>
             </div>
             
-            <div class="d-pic">
+            <div class="d-content">
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
                         <p class="Skranji head-eat">MINI GOLF</p>
@@ -167,12 +158,28 @@
                                 <span class="Lexend-extra font-size-36">Opening Hours : Daily 10.00 - 23.00</span>
                             </div>
                         </div>
+                        <div class="row mt-4">
+                            <div class="col-md-12 col-sm-12">
+                                <p class="font-size-24">
+                                    The ultimate destination for fun, thrills, and memories! With its unique atmosphere and thrilling mini-golf course, this attraction guarantees a one-of-a-kind experience that you won't find anywhere else. You'll get to come face-to-face with a variety of life-sized dinosaurs, making this outing an unforgettable adventure for all.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row bt-duo">
+                            <div class="col-md-12 text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="90" viewBox="0 0 400 90">
+                                    <a xlink:href="https://dinopark-online.globaltix.com/attraction/dino-park-phuket-mini-golf-48265" target="_blank">
+                                        <g id="button-see_more_foods-default" data-name="button-see more foods-default" transform="translate(-1111 -778.615)">
+                                            <rect id="Rectangle_44" data-name="Rectangle 44" width="400" height="90" rx="20" transform="translate(1111 778.615)" fill="#7f7f4e"/>
+                                            <text id="See_more_foods" data-name="See more foods" transform="translate(1311 835.615)" fill="#fdf3ec" font-size="32" font-family="Lexend" font-weight="600"><tspan x="-75" y="0">Buy Ticket</tspan></text>
+                                        </g>
+                                    </a>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="row highlight-sl">
-                    <div class="col-12">
-                        <div class="slideshow-container">
-    
+                    <div class="col-md-6 col-sm-12">
+                        <div class="slideshow-container" style="position: relative;">
                             <div class="mySlides">
                               <img class="pic-slide" src="../img/parkmap/minigolf/image-slideshow-mini1.jpg" width="100%"/>
                             </div>
@@ -183,105 +190,68 @@
                             <div class="mySlides">
                               <img class="pic-slide" src="../img/parkmap/minigolf/image-slideshow-mini3.jpg" width="100%" />
                             </div>
-                            <!-- <div class="mySlides">
-                                <img class="pic-slide" src="../img/parkmap/minigolf/image-slideshow-mini4.jpg" width="100%" />
-                            </div>
-                            <div class="mySlides">
-                              <img class="pic-slide" src="../img/parkmap/minigolf/image-slideshow-mini5.jpg" width="100%" />
-                            </div>
-                            <div class="mySlides">
-                              <img class="pic-slide" src="../img/parkmap/minigolf/image-slideshow-mini6.jpg" width="100%" />
-                            </div>
-                            <div class="mySlides">
-                              <img class="pic-slide" src="../img/parkmap/minigolf/image-slideshow-mini7.jpg" width="100%" />
-                            </div> -->
                             <a class="prev" onclick="plusSlides(-1)">❮</a>
                             <a class="next" onclick="plusSlides(1)">❯</a>
-                            
                             </div>
-                            
                             <div class="dot-group" style="text-align:center">
                               <span class="dot" onclick="currentSlide(1)"></span> 
                               <span class="dot" onclick="currentSlide(2)"></span> 
                               <span class="dot" onclick="currentSlide(3)"></span> 
-                              <!-- <span class="dot" onclick="currentSlide(4)"></span> 
-                              <span class="dot" onclick="currentSlide(5)"></span> 
-                              <span class="dot" onclick="currentSlide(6)"></span> 
-                              <span class="dot" onclick="currentSlide(7)"></span>  -->
                             </div>
-                    </div>
-                </div>
-                <div class="row mt-4">
-                    <div class="col-md-6 col-sm-12">
-                        <p class="font-size-24">
-                            The ultimate destination for fun, thrills, and memories! With its unique atmosphere and thrilling mini-golf course, this attraction guarantees a one-of-a-kind experience that you won't find anywhere else. You'll get to come face-to-face with a variety of life-sized dinosaurs, making this outing an unforgettable adventure for all.
-                        </p>
-                    </div>
-                </div>
-                <div class="row bt-duo">
-                    <div class="col-md-6 text-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="90" viewBox="0 0 400 90">
-                            <a xlink:href="https://dinopark-online.globaltix.com/attraction/dino-park-phuket-mini-golf-48265" target="_blank">
-                                <g id="button-see_more_foods-default" data-name="button-see more foods-default" transform="translate(-1111 -778.615)">
-                                    <rect id="Rectangle_44" data-name="Rectangle 44" width="400" height="90" rx="20" transform="translate(1111 778.615)" fill="#7f7f4e"/>
-                                    <text id="See_more_foods" data-name="See more foods" transform="translate(1311 835.615)" fill="#fdf3ec" font-size="32" font-family="Lexend" font-weight="600"><tspan x="-75" y="0">Buy Ticket</tspan></text>
-                                </g>
-                            </a>
-                        </svg>
-                    </div>
+                        </div>
                 </div>
                 <div class="row eat-img">
                     <div class="row mt-3 mb-3 text-center">
                         <div class="col-md-4 col-sm-4 mt-3 mb-3">
-                            <img src="../img/parkmap/minigolf/mini-golf1.jpg" alt="" width="100%">
+                            <img class="img-radius" src="../img/parkmap/minigolf/mini-golf1.jpg" alt="" width="100%">
                         </div>
                         <div class="col-md-4 col-sm-4 mt-3 mb-3">
-                            <img src="../img/parkmap/minigolf/mini-golf3.jpg" alt="" width="100%">
+                            <img class="img-radius" src="../img/parkmap/minigolf/mini-golf3.jpg" alt="" width="100%">
                         </div>
                         <div class="col-md-4 col-sm-4 mt-3 mb-3">
-                            <img src="../img/parkmap/minigolf/mini-golf5.jpg" alt="" width="100%">
+                            <img class="img-radius" src="../img/parkmap/minigolf/mini-golf5.jpg" alt="" width="100%">
                         </div>
                     </div>
                     <div class="row mt-3 mb-3 text-center">
                         <div class="col-md-4 col-sm-4 mt-3 mb-3">
-                            <img src="../img/parkmap/minigolf/mini-golf6.jpg" alt="" width="100%">
+                            <img class="img-radius" src="../img/parkmap/minigolf/mini-golf6.jpg" alt="" width="100%">
                         </div>
                         <div class="col-md-4 col-sm-4 mt-3 mb-3">
-                            <img src="../img/parkmap/minigolf/mini-golf13.jpg" alt="" width="100%">
+                            <img class="img-radius" src="../img/parkmap/minigolf/mini-golf13.jpg" alt="" width="100%">
                         </div>
                         <div class="col-md-4 col-sm-4 mt-3 mb-3">
-                            <img src="../img/parkmap/minigolf/mini-golf14.jpg" alt="" width="100%">
+                            <img class="img-radius" src="../img/parkmap/minigolf/mini-golf14.jpg" alt="" width="100%">
                         </div>
                         
                     </div>
                     <div class="row mt-3 mb-3 text-center">
                         <div class="col-md-4 col-sm-4 mt-3 mb-3">
-                            <img src="../img/parkmap/minigolf/mini-golf11.jpg" alt="" width="100%">
+                            <img class="img-radius" src="../img/parkmap/minigolf/mini-golf11.jpg" alt="" width="100%">
                         </div>
                         <div class="col-md-4 col-sm-4 mt-3 mb-3">
-                            <img src="../img/parkmap/minigolf/mini-golf8.jpg" alt="" width="100%">
+                            <img class="img-radius" src="../img/parkmap/minigolf/mini-golf8.jpg" alt="" width="100%">
                         </div>
                         <div class="col-md-4 col-sm-4 mt-3 mb-3">
-                            <img src="../img/parkmap/minigolf/mini-golf10.jpg" alt="" width="100%">
-                        </div>
-                    </div>
-                    <div class="row mt-3 mb-3 text-center">
-                        <div class="col-md-4 col-sm-4 mt-3 mb-3">
-                            <img src="../img/parkmap/minigolf/mini-golf15.jpg" alt="" width="100%">
-                        </div>
-                        <div class="col-md-4 col-sm-4 mt-3 mb-3">
-                            <img src="../img/parkmap/minigolf/mini-golf16.jpg" alt="" width="100%">
-                        </div>
-                        <div class="col-md-4 col-sm-4 mt-3 mb-3">
-                            <img src="../img/parkmap/minigolf/mini-golf17.jpg" alt="" width="100%">
+                            <img class="img-radius" src="../img/parkmap/minigolf/mini-golf10.jpg" alt="" width="100%">
                         </div>
                     </div>
                     <div class="row mt-3 mb-3 text-center">
                         <div class="col-md-4 col-sm-4 mt-3 mb-3">
-                            <img src="../img/parkmap/minigolf/mini-golf18.jpg" alt="" width="100%">
+                            <img class="img-radius" src="../img/parkmap/minigolf/mini-golf15.jpg" alt="" width="100%">
                         </div>
                         <div class="col-md-4 col-sm-4 mt-3 mb-3">
-                            <img src="../img/parkmap/minigolf/mini-golf19.jpg" alt="" width="100%">
+                            <img class="img-radius" src="../img/parkmap/minigolf/mini-golf16.jpg" alt="" width="100%">
+                        </div>
+                        <div class="col-md-4 col-sm-4 mt-3 mb-3">
+                            <img class="img-radius" src="../img/parkmap/minigolf/mini-golf17.jpg" alt="" width="100%">
+                        </div>
+                    </div>
+                    <div class="row mt-3 mb-3 text-center">
+                        <div class="col-md-4 col-sm-4 mt-3 mb-3">
+                            <img class="img-radius" src="../img/parkmap/minigolf/mini-golf18.jpg" alt="" width="100%">
+                        </div>
+                        <div class="col-md-4 col-sm-4 mt-3 mb-3">
+                            <img class="img-radius" src="../img/parkmap/minigolf/mini-golf19.jpg" alt="" width="100%">
                         </div>
                         <div class="col-md-4 col-sm-4 mt-3 mb-3">
                             <!-- <img src="../img/parkmap/minigolf/mini-golf17.jpg" alt="" width="100%"> -->

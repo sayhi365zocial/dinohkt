@@ -59,7 +59,7 @@ img {vertical-align: middle;}
 
 /* The dots/bullets/indicators */
 .dot-group {
-    top: 900px;
+    bottom: 30px;
     position: absolute;
     width: 100%;
 }
@@ -93,27 +93,27 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 400px) {
   .prev, .next,.text {font-size: 11px}
-  .dot-group {
+  /* .dot-group {
     top: 410px !important;
-  }
+  } */
 }
 @media screen and (max-width: 600px) {
   .dot-group {
-    top: 490px;
+    bottom: 30px;
     position: absolute;
     width: 100%;
   }
 }
 @media screen and (max-width: 820px) {
   .dot-group {
-    top: 780px;
+    bottom: 30px;
     position: absolute;
     width: 100%;
   }
 }
 @media screen and (max-width: 1024px) {
   .dot-group {
-    top: 1120px;
+    bottom: 30px;
     position: absolute;
     width: 100%;
   }

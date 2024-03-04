@@ -92,15 +92,10 @@
                 background-repeat: repeat-y;
             }
             .bg1 {
-                top: 0px;
-                left: 0px;
                 width: 100%;
-                height: 1200px;
-                position: absolute;
-                background: transparent url('img/banner-findus.png') 0% 0% no-repeat padding-box;
+                height: 100%;
             }
-            .d-pic {
-                margin-top: 1100px;
+            .d-content {
                 margin-left: 140px;
                 margin-right: 140px;
             }
@@ -119,7 +114,7 @@
                 position: absolute;
             }
             .dino-sketch-03 {
-                top: 1406px;
+                top: 1206px;
                 left: 1196px;
                 width: 1169px;
                 height: 683px;
@@ -157,21 +152,26 @@
             .sign-inline {
                 margin-top: 5px;
             }
-            @media screen and (max-width: 1024px) { 
-                .bg1 {
-                    width: 100%;
-                    height: 100%;
-                    background-size: contain;
+            @media screen and (max-width: 1400px) { 
+                .stain2 {
+                    display: none !important;
                 }
-                .d-pic {
-                    margin-top: 500px !important;
+                .dino-sketch-03 {
+                    display: none !important;
+                }
+                .d-content {
+                    margin-left: 25px !important;
+                    margin-right: 25px !important;
+                }
+            }
+            @media screen and (max-width: 1024px) { 
+                .d-content {
                     margin-left: 50px !important;
                     margin-right: 50px !important;
                 }
             }
             @media screen and (max-width: 600px) {
-                .d-pic {
-                    margin-top: 150px !important;
+                .d-content {
                     margin-left: 0px !important;
                     margin-right: 0px !important;
                 }
@@ -197,6 +197,11 @@
         </style>
     </head>
 <body>
+    <div class="row">
+        <div class="col-12 bg1">
+        <img src="img/banner-findus.png" alt="" width="100%">
+        </div>
+    </div>
     <header id="page-topbar">
         <div class="header-gradient"></div>
         <div class="top-bar"></div>
@@ -228,22 +233,15 @@
                     <img class="stain2" src="img/stain1.png" alt="">
                 </div>
             </div>
-            <!-- <div class="row">
-                <div class="col-12">
-                    <img class="stain3" src="img/stain1.png" alt="">
-                </div>
-            </div> -->
-            <div class="row">
-                <div class="col-12 bg1"></div>
-            </div>
-            <div class="d-pic">
+            
+            <div class="d-content">
                 <div class="row">
                     <div class="col-12 text-center">
                         <p class="Skranji font-size-48">FIND US</p>
                     </div>
                 </div>
                 <div class="row" style="background-color: #C59F83;">
-                    <div class="col-md-3 col-sm-12">
+                    <div class="col-md-4 col-sm-12">
                         <div class="row mt-3">
                             <div class="col-2 text-center">
                                 <button onclick="copytel()" style="border: 0; background-color: transparent;">
@@ -266,18 +264,6 @@
                                 </a>
                             </div>
                         </div>
-                        <!-- <div class="row mt-2">
-                            <div class="col-2 text-center">
-                                <a href="https://wa.me/message/SSEJ5GSYNV4KJ1" target="_blank" rel="noopener noreferrer" class="link">
-                                    <img class="sign-inline" src="img\sign\icon-whatsapp.png" alt="">
-                                </a>
-                            </div>
-                            <div class="col-10">
-                                <a href="https://wa.me/message/SSEJ5GSYNV4KJ1" target="_blank" rel="noopener noreferrer" class="link">
-                                    <span class="font-size-28 ml--2" id="whatsapp-text">dinoparkphuket</span>
-                                </a>
-                            </div>
-                        </div> -->
                         <div class="row mt-2">
                             <div class="col-2 text-center">
                                 <button onclick="copywechat()" style="border: 0; background-color: transparent;">
@@ -328,7 +314,7 @@
                             </svg>
                         </div>
                     </div>
-                    <div class="col-md-9 col-sm-12 m-0 p-0">
+                    <div class="col-md-8 col-sm-12 m-0 p-0">
                         <div class="row">
                             <div class="col-12">
                                 <a href="https://maps.app.goo.gl/j19Sg5hmfLW66bN3A" target="_blank" rel="noopener noreferrer">
