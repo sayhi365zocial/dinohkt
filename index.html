@@ -22,9 +22,9 @@
 
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/custom.css" rel="stylesheet">
-        <link href="css/top-bar.css" rel="stylesheet">
         <link href="css/home.css" rel="stylesheet">
         <link href="css/app.css" rel="stylesheet">
+        <link href="css/top-bar.css" rel="stylesheet">
         
         <style>
             body {
@@ -32,40 +32,23 @@
                 background-repeat: repeat-y;
             }
             .bg1 {
-                top: 0px;
-                left: 0px;
                 width: 100%;
-                height: 1046px;
-                /* height: 100%; */
-                position: absolute;
-                background: transparent url('img/banner-home2.png') 0% 0% no-repeat padding-box;
-                opacity: 1;
+                height: 100%;
             }
             .bg2 {
                 top: 900px;
                 left: 0px;
                 width: 100%;
-                height: 1920px;
+                height: 100%;
                 position: absolute;
-                background: transparent url('img/bg-texturecolor-2.png') 0% 0% no-repeat padding-box;
                 opacity: 1;
             }
             .bg3 {
                 top: 2258px;
                 left: 0px;
                 width: 100%;
-                height: 1102px;
+                height: 100%;
                 position: absolute;
-                background: transparent url('img/image-parkintro.png') 0% 0% no-repeat padding-box;
-                opacity: 1;
-            }
-            .bg4 {
-                top: 2650px;
-                left: 0px;
-                width: 100%;
-                height: 1920px;
-                position: absolute;
-                background: transparent url('img/bg-texturecolor.png') 0% 0% no-repeat padding-box;
                 opacity: 1;
             }
             .header-gradient {
@@ -122,14 +105,14 @@
                 position: absolute;
             }
             .dino-sketch-03 {
-                top: 3170px;
+                top: 2970px;
                 left: 1196px;
                 width: 1169px;
                 height: 683px;
                 position: absolute;
             }
             .dino-sketch-04 {
-                top: 2588px;
+                top: 2288px;
                 left: -1317px;
                 width: 1641px;
                 height: 1298px;
@@ -156,7 +139,6 @@
                 font-size: 44px;
             }
             .head-box {
-                margin-top: 1000px;
                 margin-left: 280px;
                 margin-right: 280px;
             }
@@ -200,7 +182,6 @@
                     font-size: 32px;
                 }
                 .head-box {
-                    margin-top: 700px !important;
                     margin-left: 0px;
                     margin-right: 0px;
                 }
@@ -215,13 +196,6 @@
                     margin-top: 0 !important;
                     margin-left: 10px !important;
                     margin-right: 10px !important;
-                }
-            }
-            @media screen and (max-width: 1242px) {
-                .head-box {
-                    margin-top: 550px !important;
-                    margin-left: 0px;
-                    margin-right: 0px;
                 }
             }
             @media screen and (max-width: 1024px) {
@@ -231,11 +205,6 @@
                 .second-topic {
                     font-size: 32px;
                 }
-                .head-box {
-                    margin-top: 500px !important;
-                    margin-left: 0px;
-                    margin-right: 0px;
-                }
                 .text2-box {
                     margin-left: 0;
                     margin-right: 0;
@@ -249,13 +218,6 @@
                     margin-right: 10px !important;
                 }
             }
-            @media screen and (max-width: 820px) {
-                .head-box {
-                    margin-top: 420px !important;
-                    margin-left: 0px;
-                    margin-right: 0px;
-                }
-            }
             @media screen and (max-width: 600px) {
                 .head-topic {
                     font-size: 20px !important;
@@ -263,21 +225,12 @@
                 .second-topic {
                     font-size: 18px;
                 }
-                .head-box {
-                    margin-top: 185px !important;
-                    margin-left: 0px;
-                    margin-right: 0px;
-                }
                 .text2-box {
                     margin-left: 0px;
                     margin-right: 0px;
                 }
                 .text1 {
                     font-size: 16px !important;
-                }
-                .footer {
-                    bottom: 0 !important;
-                    position: fixed !important;
                 }
                 .space {
                     display: none;
@@ -300,6 +253,17 @@
         </style>
     </head>
 <body>
+        <!-- <div class=" bg2">
+            <img src="img/bg-texturecolor-2.png" alt="" width="100%">
+        </div> -->
+    <div class="row">
+        <div class="col-12 bg1">
+            <img src="img/banner-home2.png" alt="" width="100%">
+        </div>
+    </div>
+        <div class="bg3">
+            <img src="img/image-parkintro.png" alt="" width="100%">
+        </div>
     <header id="page-topbar">
         <div class="header-gradient"></div>
         <div class="top-bar"></div>
@@ -307,18 +271,6 @@
     <div id="layout-wrapper">
         <div class="page-content">
             <div class="content-fluid">
-                <div class="row">
-                    <div class="col-12 bg2">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 bg1">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 bg3">
-                    </div>
-                </div>
                 <div class="img-bg">
                     <div class="row">
                         <div class="col-2">

@@ -22,24 +22,27 @@
         background-size: contain !important;
     }
     .dino-twin {
-        margin-top: 385px !important;
+        margin-top: 485px !important;
     }
     .Dilophosaurus {
         margin-top: -775px !important;
     }
-}
-@media screen and (max-width: 1242px) {
-    .bg3 {
-        width: 100% !important;
-        height: 100% !important;
-        top: 210% !important;
-        background-size: contain !important;
+    .leaf-sketch-03 {
+        display: none !important;
     }
     .dino-sketch-04 {
         display: none !important;
     }
     .dino-sketch-03 {
         display: none !important;
+    }
+}
+@media screen and (max-width: 1242px) {
+    .bg3 {
+        width: 100% !important;
+        height: 100% !important;
+        top: 1750px !important;
+        background-size: contain !important;
     }
 }
 @media screen and (max-width: 1024px) {
@@ -59,7 +62,7 @@
     .bg3 {
         width: 100% !important;
         height: 100% !important;
-        top: 105% !important;
+        top: 1450px !important;
         background-size: contain !important;
     }
     .bg4 {
@@ -90,15 +93,8 @@
         width: 100% !important;
         height: 683px;
     }
-    .dino-sketch-03 {
-        display: none !important;
-    }
-    .dino-sketch-04 {
-        display: none !important;
-    }
-    
     .dino-twin {
-        margin-top: 225px !important;
+        margin-top: 325px !important;
     }
     .es {
         margin-top: 100px !important;
@@ -151,15 +147,11 @@
     .img-foot {
         margin-bottom: 20px !important;
     }
-    .footer {
-        bottom: 0 !important;
-        position: fixed !important;
-    }
 }
 @media screen and (max-width: 820px) {
     .bg3 {
         width: 100% !important;
-        top: 1450px !important;
+        top: 1350px !important;
         background-size: contain !important;
     }
 }
@@ -179,7 +171,7 @@
     }
     .bg3 {
         width: 100% !important;
-        height: -webkit-fill-availablema !important;
+        height: 50% !important;
         top: 750px !important;
         background-size: contain !important;
     }
@@ -191,11 +183,6 @@
     }
     .bg4-content{
         margin-top: -25px;
-    }
-    .footer {
-        top: auto !important;
-        bottom: 0 !important;
-        /* position: fixed !important; */
     }
     .header-gradient {
         width: 100% !important;
@@ -227,8 +214,6 @@
         left: -60px !important;
         width: 80% !important;
         height: auto !important;
-
-        /* height: fit-content !important; */
     }
     .mt-group{
         margin-top: 0px !important;
@@ -262,25 +247,7 @@
         margin-right: 0px !important;
     }
     .dino-twin {
-        margin-top: 115px !important;
-    }
-    .dino-sketch-03 {
-        top: 25px !important;
-        left: 65% !important;
-        width: 50% !important;
-        height: auto !important;
-    }
-    .dino-sketch-04 {
-        top: 0px !important;
-        left: -80px !important;
-        width: 50% !important;
-        height: auto !important;
-    }
-    .leaf-sketch-03 {
-        top: -25px !important;
-        left: -24px !important;
-        width: 20% !important;
-        height: auto !important;
+        margin-top: 135px !important;
     }
     .es {
         margin-top: 80px !important;
@@ -316,6 +283,6 @@
         top: 25% !important;
     }
     .dino-twin {
-        margin-top: 130px !important;
+        margin-top: 165px !important;
     }
 }

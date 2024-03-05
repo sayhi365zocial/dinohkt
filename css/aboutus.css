@@ -78,10 +78,7 @@
         width: 100% !important;
         height: 683px;
     }
-    .footer {
-        bottom: 0 !important;
-        position: fixed !important;
-    }
+    
     .bt-sm {
         width: 30% !important;
     }
@@ -130,10 +127,6 @@
         left: -220px !important;
         width: 80% !important;
         height: auto !important;
-    }
-    .footer {
-        top: auto !important;
-        bottom: 0 !important;
     }
     .dino-sketch-03 {
         display: none !important;
