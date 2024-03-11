@@ -18,7 +18,7 @@
     .bg3 {
         width: 100% !important;
         height: 100% !important;
-        top: 180% !important;
+        top: 1800px !important;
         background-size: contain !important;
     }
     .dino-twin {
@@ -62,7 +62,7 @@
     .bg3 {
         width: 100% !important;
         height: 100% !important;
-        top: 1450px !important;
+        top: 1750px !important;
         background-size: contain !important;
     }
     .bg4 {
@@ -151,7 +151,7 @@
 @media screen and (max-width: 820px) {
     .bg3 {
         width: 100% !important;
-        top: 1350px !important;
+        top: 1700px !important;
         background-size: contain !important;
     }
 }
@@ -172,7 +172,7 @@
     .bg3 {
         width: 100% !important;
         height: 50% !important;
-        top: 750px !important;
+        top: 910px !important;
         background-size: contain !important;
     }
     .bg4 {
@@ -269,7 +269,7 @@
 @media screen and (max-width: 400px) {
     .bg3 {
         width: 100% !important;
-        top: 840px !important;
+        top: 990px !important;
         background-size: contain !important;
     }
     .dino-twin {
