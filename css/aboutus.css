@@ -1,17 +1,9 @@
 @media screen and (max-width: 1400px) { 
     .bg2 {
-        width: 100% !important;
+        /* width: 100% !important;
         height: 220% !important;
-        top: 24% !important;
-    }
-    .bg3 {
-        width: 100% !important;
-        height: 100% !important;
-        top: 1250px !important;
-        background-size: contain !important;
-    }
-    .dino-twin {
-        margin-top: 385px !important;
+        top: 18% !important; */
+        display: none !important;
     }
     .Dilophosaurus {
         margin-top: -775px !important;
@@ -21,7 +13,6 @@
         margin-right: 50px !important;
     }
     .text2-box {
-        margin-top: 750px !important;
         margin-left: 50px !important;
         margin-right: 50px !important;
     }
@@ -31,12 +22,6 @@
     }
 }
 @media screen and (max-width: 1242px) {
-    .bg3 {
-        width: 100% !important;
-        height: 100% !important;
-        top: 1250px !important;
-        background-size: contain !important;
-    }
     .dino-sketch-04 {
         display: none !important;
     }
@@ -48,25 +33,6 @@
     .bg1 {
         width: 100% !important;
         height: 100% !important;
-        background-size: contain !important;
-    }
-    /* .bg2 {
-        width: 100% !important;
-        height: 65% !important;
-        top: 20% !important;
-    } */
-    .bg2-content {
-        margin-top: -25px;
-    }
-    .bg3 {
-        width: 100% !important;
-        top: 950px !important;
-        background-size: contain !important;
-    }
-    .bg4 {
-        width: 100% !important;
-        height: -webkit-fill-available !important;
-        top: 115% !important;
         background-size: contain !important;
     }
     .e-pic {
@@ -84,35 +50,11 @@
     }
 }
 @media screen and (max-width: 820px) {
-    .bg3 {
-        width: 100% !important;
-        top: 950px !important;
-        background-size: contain !important;
-    }
 }
 @media screen and (max-width: 600px) {
     .bg1 {
         width: 100% !important;
         height: 100% !important;
-        background-size: contain !important;
-    }
-    /* .bg2 {
-        width: 100% !important;
-        height: 75% !important;
-        top: 15% !important;
-    } */
-    .bg2-content {
-        margin-top: -25px;
-    }
-    .bg3 {
-        width: 100% !important;
-        top: 75% !important;
-        background-size: contain !important;
-    }
-    .bg4 {
-        width: 100% !important;
-        height: -webkit-fill-available !important;
-        top: 85% !important;
         background-size: contain !important;
     }
     .e-pic {
@@ -133,9 +75,4 @@
     }
 }
 @media screen and (max-width: 400px) {
-    .bg3 {
-        width: 100% !important;
-        top: 640px !important;
-        background-size: contain !important;
-    }
 }
