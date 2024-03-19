@@ -29,6 +29,7 @@
             body {
                 background: url('../img/bg-texturecolor.png');
                 background-repeat: repeat-y;
+                background-repeat: repeat-x;
             }
             .bg1 {
                 width: 100%;
@@ -73,13 +74,6 @@
                 left: 1611px;
                 width: 423px;
                 height: 435px;
-                position: absolute;
-            }
-            .highlight {
-                top: -600px;
-                left: 970px;
-                width: 950px;
-                height: 860px;
                 position: absolute;
             }
             @media screen and (max-width: 1400px) {
@@ -130,7 +124,11 @@
         </div>
     </div>
     <header id="page-topbar">
-        <div class="header-gradient"></div>
+        <div class="row">
+            <div class="col-12 header-gradient">
+                <img src="../img/header-gradient.png" alt="" width="100%">
+            </div>
+        </div>
         <div class="top-bar"></div>
     </header>
     <div class="page-content">

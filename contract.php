@@ -90,6 +90,7 @@
             body {
                 background: url('img/bg-texturecolor.png');
                 background-repeat: repeat-y;
+                background-repeat: repeat-x;
             }
             .bg1 {
                 width: 100%;
@@ -203,7 +204,11 @@
         </div>
     </div>
     <header id="page-topbar">
-        <div class="header-gradient"></div>
+        <div class="row">
+            <div class="col-12 header-gradient">
+                <img src="img/header-gradient.png" alt="" width="100%">
+            </div>
+        </div>
         <div class="top-bar"></div>
     </header>
     <div class="page-content">
